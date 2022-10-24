@@ -1,0 +1,916 @@
+2022-08-03 14:09:51,770 | 2022-08-03_14-09-51
+2022-08-03 14:09:51,771 | part_0.615_2_2_ECOD.log
+2022-08-03 14:09:51,809 | ChannelConnectivity.IDLE
+2022-08-03 14:09:51,812 | ChannelConnectivity.CONNECTING
+2022-08-03 14:09:51,813 | Opened (insecure) gRPC connection
+2022-08-03 14:09:51,826 | ChannelConnectivity.READY
+2022-08-03 14:09:51,847 | iteration: 0
+2022-08-03 14:09:51,851 | x_train: [[ 54.17 110.7 ]
+ [137.25 214.59]
+ [ 59.   110.  ]
+ ...
+ [142.91 281.4 ]
+ [ 39.25  77.4 ]
+ [ 67.26 157.31]]
+2022-08-03 14:09:51,853 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:09:51,853 | len(x_train): 1154
+2022-08-03 14:09:51,853 | len(y_train): 1154
+2022-08-03 14:09:56,237 | LogReg Training time spent: 4.3934 seconds
+2022-08-03 14:09:56,242 | Receive Global MLModel message time spent: 0.0244 seconds
+2022-08-03 14:09:56,243 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:09:56,600 | Modelo gerado evaluate(): [array([[-0.9156016 , -0.23666614],
+       [-0.05693786,  0.17635648]], dtype=float32), array([ 0.0028791, -0.0028791], dtype=float32)]
+2022-08-03 14:09:56,606 | Receive Global MLModel message time spent: 0.0164 seconds
+2022-08-03 14:09:56,607 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:09:56,630 | iteration: 1
+2022-08-03 14:09:56,634 | x_train: [[ 42.75 120.88]
+ [ 15.17  56.42]
+ [ 50.68 107.37]
+ ...
+ [189.15 327.7 ]
+ [  6.59  15.16]
+ [ 20.1   46.44]]
+2022-08-03 14:09:56,635 | y_train: [1 1 1 ... 1 0 1]
+2022-08-03 14:09:56,636 | len(x_train): 1154
+2022-08-03 14:09:56,636 | len(y_train): 1154
+2022-08-03 14:09:57,446 | LogReg Training time spent: 0.8192 seconds
+2022-08-03 14:09:57,450 | Receive Global MLModel message time spent: 0.0136 seconds
+2022-08-03 14:09:57,451 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:09:57,803 | Modelo gerado evaluate(): [array([[-0.87178785, -0.279712  ],
+       [ 0.04716897,  0.07217007]], dtype=float32), array([ 0.0056794, -0.0056794], dtype=float32)]
+2022-08-03 14:09:57,809 | Receive Global MLModel message time spent: 0.0100 seconds
+2022-08-03 14:09:57,810 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:09:57,833 | iteration: 2
+2022-08-03 14:09:57,838 | x_train: [[ 37.5  119.5 ]
+ [ 68.21  94.54]
+ [ 50.24 113.49]
+ ...
+ [ 27.7   65.65]
+ [140.66 249.19]
+ [ 60.   138.  ]]
+2022-08-03 14:09:57,839 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:09:57,840 | len(x_train): 1153
+2022-08-03 14:09:57,840 | len(y_train): 1153
+2022-08-03 14:09:58,634 | LogReg Training time spent: 0.8048 seconds
+2022-08-03 14:09:58,639 | Receive Global MLModel message time spent: 0.0128 seconds
+2022-08-03 14:09:58,640 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:09:59,028 | Modelo gerado evaluate(): [array([[-0.8353685 , -0.315364  ],
+       [ 0.11302944,  0.00623008]], dtype=float32), array([ 0.0080964, -0.0080964], dtype=float32)]
+2022-08-03 14:09:59,034 | Receive Global MLModel message time spent: 0.0123 seconds
+2022-08-03 14:09:59,035 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:09:59,054 | iteration: 3
+2022-08-03 14:09:59,058 | x_train: [[ 38.28 130.3 ]
+ [ 65.   120.  ]
+ [ 29.55  65.62]
+ ...
+ [ 32.42  62.4 ]
+ [ 10.4   26.02]
+ [ 36.06 102.99]]
+2022-08-03 14:09:59,059 | y_train: [1 1 1 ... 1 0 1]
+2022-08-03 14:09:59,060 | len(x_train): 1153
+2022-08-03 14:09:59,060 | len(y_train): 1153
+2022-08-03 14:09:59,878 | LogReg Training time spent: 0.8278 seconds
+2022-08-03 14:09:59,884 | Receive Global MLModel message time spent: 0.0109 seconds
+2022-08-03 14:09:59,885 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:00,281 | Modelo gerado evaluate(): [array([[-0.8122938 , -0.3376718 ],
+       [ 0.11220138,  0.00697865]], dtype=float32), array([ 0.00996816, -0.00996816], dtype=float32)]
+2022-08-03 14:10:00,286 | Receive Global MLModel message time spent: 0.0138 seconds
+2022-08-03 14:10:00,287 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:00,306 | iteration: 4
+2022-08-03 14:10:00,310 | x_train: [[ 26.82  64.82]
+ [ 12.05  43.81]
+ [ 39.   210.5 ]
+ ...
+ [ 41.12 106.88]
+ [ 64.5   94.  ]
+ [ 20.55  54.38]]
+2022-08-03 14:10:00,311 | y_train: [1 0 1 ... 1 1 1]
+2022-08-03 14:10:00,312 | len(x_train): 1153
+2022-08-03 14:10:00,312 | len(y_train): 1153
+2022-08-03 14:10:01,123 | LogReg Training time spent: 0.8209 seconds
+2022-08-03 14:10:01,128 | Receive Global MLModel message time spent: 0.0104 seconds
+2022-08-03 14:10:01,130 | Send Local MLModel message time spent: 0.0007 seconds
+2022-08-03 14:10:01,519 | Modelo gerado evaluate(): [array([[-0.7940444 , -0.35515487],
+       [ 0.09892049,  0.02018009]], dtype=float32), array([ 0.01161994, -0.01161995], dtype=float32)]
+2022-08-03 14:10:01,525 | Receive Global MLModel message time spent: 0.0125 seconds
+2022-08-03 14:10:01,526 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:01,562 | iteration: 5
+2022-08-03 14:10:01,566 | x_train: [[  5.01  24.58]
+ [130.5  217.5 ]
+ [ 33.75 100.  ]
+ ...
+ [164.17 363.32]
+ [ 40.5   64.2 ]
+ [ 22.25  92.  ]]
+2022-08-03 14:10:01,567 | y_train: [0 1 1 ... 1 1 0]
+2022-08-03 14:10:01,568 | len(x_train): 1153
+2022-08-03 14:10:01,568 | len(y_train): 1153
+2022-08-03 14:10:02,426 | LogReg Training time spent: 0.8676 seconds
+2022-08-03 14:10:02,432 | Receive Global MLModel message time spent: 0.0278 seconds
+2022-08-03 14:10:02,433 | Send Local MLModel message time spent: 0.0005 seconds
+2022-08-03 14:10:02,796 | Modelo gerado evaluate(): [array([[-0.7729967 , -0.37543657],
+       [ 0.09927314,  0.01974806]], dtype=float32), array([ 0.01341354, -0.01341354], dtype=float32)]
+2022-08-03 14:10:02,803 | Receive Global MLModel message time spent: 0.0203 seconds
+2022-08-03 14:10:02,804 | Send Local MLModel message time spent: 0.0004 seconds
+2022-08-03 14:10:02,824 | iteration: 6
+2022-08-03 14:10:02,828 | x_train: [[136.28 217.41]
+ [175.18 288.42]
+ [ 81.    94.  ]
+ ...
+ [ 17.99  37.65]
+ [ 26.67  69.96]
+ [ 19.25  31.75]]
+2022-08-03 14:10:02,829 | y_train: [1 1 1 ... 1 1 0]
+2022-08-03 14:10:02,830 | len(x_train): 1153
+2022-08-03 14:10:02,830 | len(y_train): 1153
+2022-08-03 14:10:03,638 | LogReg Training time spent: 0.8171 seconds
+2022-08-03 14:10:03,643 | Receive Global MLModel message time spent: 0.0110 seconds
+2022-08-03 14:10:03,644 | Send Local MLModel message time spent: 0.0004 seconds
+2022-08-03 14:10:03,997 | Modelo gerado evaluate(): [array([[-0.7519854 , -0.3956825 ],
+       [ 0.09371137,  0.02523052]], dtype=float32), array([ 0.01519093, -0.01519093], dtype=float32)]
+2022-08-03 14:10:04,005 | Receive Global MLModel message time spent: 0.0096 seconds
+2022-08-03 14:10:04,006 | Send Local MLModel message time spent: 0.0005 seconds
+2022-08-03 14:10:04,031 | iteration: 7
+2022-08-03 14:10:04,035 | x_train: [[12.   46.  ]
+ [16.25 58.75]
+ [16.17 49.67]
+ ...
+ [18.04 81.45]
+ [30.49 80.75]
+ [27.06 61.3 ]]
+2022-08-03 14:10:04,037 | y_train: [0 1 1 ... 1 1 1]
+2022-08-03 14:10:04,037 | len(x_train): 1153
+2022-08-03 14:10:04,037 | len(y_train): 1153
+2022-08-03 14:10:04,833 | LogReg Training time spent: 0.8047 seconds
+2022-08-03 14:10:04,838 | Receive Global MLModel message time spent: 0.0163 seconds
+2022-08-03 14:10:04,839 | Send Local MLModel message time spent: 0.0005 seconds
+2022-08-03 14:10:05,195 | Modelo gerado evaluate(): [array([[-0.7293302 , -0.4175729 ],
+       [ 0.09645742,  0.02240521]], dtype=float32), array([ 0.01693757, -0.01693757], dtype=float32)]
+2022-08-03 14:10:05,201 | Receive Global MLModel message time spent: 0.0152 seconds
+2022-08-03 14:10:05,202 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:05,221 | iteration: 8
+2022-08-03 14:10:05,226 | x_train: [[ 29.91  84.71]
+ [120.25 223.25]
+ [ 55.92 186.99]
+ ...
+ [ 61.99 116.93]
+ [ 93.   233.5 ]
+ [ 60.25 153.25]]
+2022-08-03 14:10:05,227 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:05,227 | len(x_train): 1153
+2022-08-03 14:10:05,228 | len(y_train): 1153
+2022-08-03 14:10:06,071 | LogReg Training time spent: 0.8529 seconds
+2022-08-03 14:10:06,076 | Receive Global MLModel message time spent: 0.0117 seconds
+2022-08-03 14:10:06,077 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:06,440 | Modelo gerado evaluate(): [array([[-0.71166414, -0.43447462],
+       [ 0.08221734,  0.03656607]], dtype=float32), array([ 0.01858523, -0.01858523], dtype=float32)]
+2022-08-03 14:10:06,447 | Receive Global MLModel message time spent: 0.0212 seconds
+2022-08-03 14:10:06,447 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:06,464 | iteration: 9
+2022-08-03 14:10:06,468 | x_train: [[ 34.8   85.59]
+ [ 52.5  140.5 ]
+ [ 80.   104.  ]
+ ...
+ [ 31.75  46.  ]
+ [111.09 210.61]
+ [ 46.08 116.5 ]]
+2022-08-03 14:10:06,470 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:06,470 | len(x_train): 1153
+2022-08-03 14:10:06,470 | len(y_train): 1153
+2022-08-03 14:10:07,375 | LogReg Training time spent: 0.9141 seconds
+2022-08-03 14:10:07,380 | Receive Global MLModel message time spent: 0.0084 seconds
+2022-08-03 14:10:07,381 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:07,736 | Modelo gerado evaluate(): [array([[-0.689793  , -0.45558196],
+       [ 0.08158779,  0.03711646]], dtype=float32), array([ 0.02041677, -0.02041677], dtype=float32)]
+2022-08-03 14:10:07,746 | Receive Global MLModel message time spent: 0.0142 seconds
+2022-08-03 14:10:07,747 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:07,764 | iteration: 10
+2022-08-03 14:10:07,769 | x_train: [[23.25 56.75]
+ [26.26 54.1 ]
+ [35.33 87.  ]
+ ...
+ [42.5  98.75]
+ [56.   94.  ]
+ [30.   51.5 ]]
+2022-08-03 14:10:07,771 | y_train: [0 1 1 ... 1 1 1]
+2022-08-03 14:10:07,771 | len(x_train): 1153
+2022-08-03 14:10:07,772 | len(y_train): 1153
+2022-08-03 14:10:08,576 | LogReg Training time spent: 0.8155 seconds
+2022-08-03 14:10:08,581 | Receive Global MLModel message time spent: 0.0070 seconds
+2022-08-03 14:10:08,582 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:08,933 | Modelo gerado evaluate(): [array([[-0.6722323 , -0.4723792 ],
+       [ 0.0793625 ,  0.03926266]], dtype=float32), array([ 0.02197868, -0.02197868], dtype=float32)]
+2022-08-03 14:10:08,939 | Receive Global MLModel message time spent: 0.0118 seconds
+2022-08-03 14:10:08,940 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:08,954 | iteration: 11
+2022-08-03 14:10:08,959 | x_train: [[ 40.5   68.75]
+ [ 50.5  124.  ]
+ [ 50.73  95.17]
+ ...
+ [ 26.25  69.75]
+ [ 76.93 110.86]
+ [ 83.4  205.14]]
+2022-08-03 14:10:08,960 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:08,960 | len(x_train): 1153
+2022-08-03 14:10:08,961 | len(y_train): 1153
+2022-08-03 14:10:09,799 | LogReg Training time spent: 0.8482 seconds
+2022-08-03 14:10:09,805 | Receive Global MLModel message time spent: 0.0068 seconds
+2022-08-03 14:10:09,805 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:10,183 | Modelo gerado evaluate(): [array([[-0.6591651 , -0.4846836 ],
+       [ 0.07390177,  0.04464434]], dtype=float32), array([ 0.02332847, -0.02332847], dtype=float32)]
+2022-08-03 14:10:10,190 | Receive Global MLModel message time spent: 0.0099 seconds
+2022-08-03 14:10:10,191 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:10,208 | iteration: 12
+2022-08-03 14:10:10,213 | x_train: [[  8.    26.75]
+ [ 18.79  69.34]
+ [109.1  240.94]
+ ...
+ [ 61.54 127.55]
+ [ 32.64  54.56]
+ [ 47.57 116.3 ]]
+2022-08-03 14:10:10,214 | y_train: [0 1 1 ... 1 1 1]
+2022-08-03 14:10:10,215 | len(x_train): 1153
+2022-08-03 14:10:10,216 | len(y_train): 1153
+2022-08-03 14:10:11,023 | LogReg Training time spent: 0.8185 seconds
+2022-08-03 14:10:11,029 | Receive Global MLModel message time spent: 0.0079 seconds
+2022-08-03 14:10:11,030 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:11,381 | Modelo gerado evaluate(): [array([[-0.6464061 , -0.4966803 ],
+       [ 0.06978191,  0.04868519]], dtype=float32), array([ 0.02472229, -0.02472229], dtype=float32)]
+2022-08-03 14:10:11,387 | Receive Global MLModel message time spent: 0.0102 seconds
+2022-08-03 14:10:11,389 | Send Local MLModel message time spent: 0.0005 seconds
+2022-08-03 14:10:11,412 | iteration: 13
+2022-08-03 14:10:11,417 | x_train: [[ 56.94 123.39]
+ [ 45.5   91.5 ]
+ [ 10.24  36.11]
+ ...
+ [ 37.83  91.58]
+ [ 31.38  59.2 ]
+ [ 27.72  66.23]]
+2022-08-03 14:10:11,418 | y_train: [1 1 0 ... 1 1 1]
+2022-08-03 14:10:11,419 | len(x_train): 1153
+2022-08-03 14:10:11,419 | len(y_train): 1153
+2022-08-03 14:10:12,217 | LogReg Training time spent: 0.8088 seconds
+2022-08-03 14:10:12,223 | Receive Global MLModel message time spent: 0.0139 seconds
+2022-08-03 14:10:12,225 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:12,575 | Modelo gerado evaluate(): [array([[-0.63769007, -0.50463456],
+       [ 0.06388932,  0.05449882]], dtype=float32), array([ 0.02583915, -0.02583915], dtype=float32)]
+2022-08-03 14:10:12,582 | Receive Global MLModel message time spent: 0.0123 seconds
+2022-08-03 14:10:12,583 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:12,606 | iteration: 14
+2022-08-03 14:10:12,611 | x_train: [[ 24.29 115.48]
+ [ 16.95  61.67]
+ [ 15.75  60.5 ]
+ ...
+ [101.2  110.14]
+ [ 21.38  64.  ]
+ [158.77 260.47]]
+2022-08-03 14:10:12,612 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:12,612 | len(x_train): 1153
+2022-08-03 14:10:12,613 | len(y_train): 1153
+2022-08-03 14:10:13,456 | LogReg Training time spent: 0.8527 seconds
+2022-08-03 14:10:13,461 | Receive Global MLModel message time spent: 0.0143 seconds
+2022-08-03 14:10:13,463 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:13,821 | Modelo gerado evaluate(): [array([[-0.6286361 , -0.5129272 ],
+       [ 0.06082693,  0.05748231]], dtype=float32), array([ 0.02703642, -0.02703642], dtype=float32)]
+2022-08-03 14:10:13,827 | Receive Global MLModel message time spent: 0.0143 seconds
+2022-08-03 14:10:13,828 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:13,849 | iteration: 15
+2022-08-03 14:10:13,854 | x_train: [[ 31.15  69.7 ]
+ [104.47 162.66]
+ [ 59.62  90.75]
+ ...
+ [ 11.5   15.75]
+ [145.28 215.48]
+ [ 20.61  55.34]]
+2022-08-03 14:10:13,855 | y_train: [1 1 1 ... 0 1 0]
+2022-08-03 14:10:13,856 | len(x_train): 1153
+2022-08-03 14:10:13,856 | len(y_train): 1153
+2022-08-03 14:10:14,798 | LogReg Training time spent: 0.9528 seconds
+2022-08-03 14:10:14,803 | Receive Global MLModel message time spent: 0.0120 seconds
+2022-08-03 14:10:14,804 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:15,156 | Modelo gerado evaluate(): [array([[-0.62196016, -0.5188424 ],
+       [ 0.05971612,  0.05851427]], dtype=float32), array([ 0.02808238, -0.02808238], dtype=float32)]
+2022-08-03 14:10:15,164 | Receive Global MLModel message time spent: 0.0122 seconds
+2022-08-03 14:10:15,165 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:15,198 | iteration: 16
+2022-08-03 14:10:15,202 | x_train: [[ 17.8   36.33]
+ [ 26.59  75.25]
+ [ 21.    90.5 ]
+ ...
+ [ 63.61 168.07]
+ [ 13.08  56.83]
+ [126.93 207.18]]
+2022-08-03 14:10:15,203 | y_train: [0 1 1 ... 1 1 1]
+2022-08-03 14:10:15,204 | len(x_train): 1153
+2022-08-03 14:10:15,204 | len(y_train): 1153
+2022-08-03 14:10:15,996 | LogReg Training time spent: 0.8016 seconds
+2022-08-03 14:10:16,001 | Receive Global MLModel message time spent: 0.0245 seconds
+2022-08-03 14:10:16,002 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:16,363 | Modelo gerado evaluate(): [array([[-0.61499685, -0.5250454 ],
+       [ 0.05762543,  0.06052617]], dtype=float32), array([ 0.02934187, -0.02934187], dtype=float32)]
+2022-08-03 14:10:16,371 | Receive Global MLModel message time spent: 0.0200 seconds
+2022-08-03 14:10:16,372 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:16,391 | iteration: 17
+2022-08-03 14:10:16,395 | x_train: [[ 64.75 146.56]
+ [ 15.33  62.  ]
+ [ 62.89 104.53]
+ ...
+ [ 75.48 118.26]
+ [ 78.5  233.75]
+ [ 69.89 176.54]]
+2022-08-03 14:10:16,396 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:16,397 | len(x_train): 1153
+2022-08-03 14:10:16,397 | len(y_train): 1153
+2022-08-03 14:10:17,233 | LogReg Training time spent: 0.8455 seconds
+2022-08-03 14:10:17,238 | Receive Global MLModel message time spent: 0.0092 seconds
+2022-08-03 14:10:17,239 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:17,590 | Modelo gerado evaluate(): [array([[-0.6105622 , -0.52872026],
+       [ 0.05729353,  0.06077933]], dtype=float32), array([ 0.03041522, -0.03041523], dtype=float32)]
+2022-08-03 14:10:17,597 | Receive Global MLModel message time spent: 0.0084 seconds
+2022-08-03 14:10:17,598 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:17,621 | iteration: 18
+2022-08-03 14:10:17,625 | x_train: [[ 72.17 169.32]
+ [147.07 338.98]
+ [ 62.4  141.24]
+ ...
+ [ 72.03  97.76]
+ [ 93.25 182.13]
+ [ 44.87 133.93]]
+2022-08-03 14:10:17,627 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:17,628 | len(x_train): 1153
+2022-08-03 14:10:17,628 | len(y_train): 1153
+2022-08-03 14:10:18,479 | LogReg Training time spent: 0.8622 seconds
+2022-08-03 14:10:18,484 | Receive Global MLModel message time spent: 0.0130 seconds
+2022-08-03 14:10:18,485 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:18,873 | Modelo gerado evaluate(): [array([[-0.6069838 , -0.5315394 ],
+       [ 0.05646723,  0.06152695]], dtype=float32), array([ 0.03147817, -0.03147817], dtype=float32)]
+2022-08-03 14:10:18,879 | Receive Global MLModel message time spent: 0.0117 seconds
+2022-08-03 14:10:18,880 | Send Local MLModel message time spent: 0.0003 seconds
+2022-08-03 14:10:18,900 | iteration: 19
+2022-08-03 14:10:18,905 | x_train: [[ 59.19 134.26]
+ [ 26.75  66.75]
+ [ 63.92 113.7 ]
+ ...
+ [ 85.81 208.53]
+ [ 62.08 139.5 ]
+ [ 35.88 139.75]]
+2022-08-03 14:10:18,906 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:18,907 | len(x_train): 1153
+2022-08-03 14:10:18,908 | len(y_train): 1153
+2022-08-03 14:10:19,850 | LogReg Training time spent: 0.9537 seconds
+2022-08-03 14:10:19,855 | Receive Global MLModel message time spent: 0.0117 seconds
+2022-08-03 14:10:19,857 | Send Local MLModel message time spent: 0.0005 seconds
+2022-08-03 14:10:20,236 | Modelo gerado evaluate(): [array([[-0.60312754, -0.5346369 ],
+       [ 0.05685148,  0.06106406]], dtype=float32), array([ 0.03243306, -0.03243306], dtype=float32)]
+2022-08-03 14:10:20,242 | Receive Global MLModel message time spent: 0.0125 seconds
+2022-08-03 14:10:20,244 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:20,261 | iteration: 20
+2022-08-03 14:10:20,265 | x_train: [[ 35.88  78.75]
+ [ 27.33  81.45]
+ [119.86 232.68]
+ ...
+ [ 32.46  43.68]
+ [ 83.75  94.  ]
+ [ 65.75 121.5 ]]
+2022-08-03 14:10:20,266 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:20,267 | len(x_train): 1153
+2022-08-03 14:10:20,267 | len(y_train): 1153
+2022-08-03 14:10:21,160 | LogReg Training time spent: 0.9017 seconds
+2022-08-03 14:10:21,166 | Receive Global MLModel message time spent: 0.0083 seconds
+2022-08-03 14:10:21,167 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:21,529 | Modelo gerado evaluate(): [array([[-0.6006707 , -0.53633535],
+       [ 0.05465601,  0.06318095]], dtype=float32), array([ 0.03347799, -0.033478  ], dtype=float32)]
+2022-08-03 14:10:21,536 | Receive Global MLModel message time spent: 0.0145 seconds
+2022-08-03 14:10:21,536 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:21,587 | iteration: 21
+2022-08-03 14:10:21,591 | x_train: [[ 21.5   46.25]
+ [  4.    18.  ]
+ [ 25.16  46.91]
+ ...
+ [ 28.05  91.88]
+ [  9.88  87.7 ]
+ [ 62.   104.5 ]]
+2022-08-03 14:10:21,592 | y_train: [1 0 1 ... 1 1 1]
+2022-08-03 14:10:21,593 | len(x_train): 1153
+2022-08-03 14:10:21,593 | len(y_train): 1153
+2022-08-03 14:10:22,398 | LogReg Training time spent: 0.8148 seconds
+2022-08-03 14:10:22,404 | Receive Global MLModel message time spent: 0.0424 seconds
+2022-08-03 14:10:22,404 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:22,776 | Modelo gerado evaluate(): [array([[-0.5996608 , -0.5365875 ],
+       [ 0.05192972,  0.06582872]], dtype=float32), array([ 0.0345332 , -0.03453321], dtype=float32)]
+2022-08-03 14:10:22,784 | Receive Global MLModel message time spent: 0.0109 seconds
+2022-08-03 14:10:22,785 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:22,801 | iteration: 22
+2022-08-03 14:10:22,805 | x_train: [[114.09 288.24]
+ [ 84.12  94.  ]
+ [ 56.46 168.45]
+ ...
+ [ 56.85 166.94]
+ [ 47.75 101.25]
+ [ 36.4   85.73]]
+2022-08-03 14:10:22,806 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:22,807 | len(x_train): 1153
+2022-08-03 14:10:22,807 | len(y_train): 1153
+2022-08-03 14:10:23,647 | LogReg Training time spent: 0.8492 seconds
+2022-08-03 14:10:23,652 | Receive Global MLModel message time spent: 0.0067 seconds
+2022-08-03 14:10:23,653 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:24,003 | Modelo gerado evaluate(): [array([[-0.5955974 , -0.5398937 ],
+       [ 0.05684304,  0.06083692]], dtype=float32), array([ 0.03560672, -0.03560673], dtype=float32)]
+2022-08-03 14:10:24,011 | Receive Global MLModel message time spent: 0.0103 seconds
+2022-08-03 14:10:24,012 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:24,033 | iteration: 23
+2022-08-03 14:10:24,037 | x_train: [[ 23.5   96.12]
+ [ 49.44  90.21]
+ [ 49.19 127.33]
+ ...
+ [ 36.5  107.75]
+ [ 18.    40.  ]
+ [ 22.25  50.5 ]]
+2022-08-03 14:10:24,039 | y_train: [1 1 1 ... 1 0 1]
+2022-08-03 14:10:24,039 | len(x_train): 1153
+2022-08-03 14:10:24,039 | len(y_train): 1153
+2022-08-03 14:10:24,941 | LogReg Training time spent: 0.9109 seconds
+2022-08-03 14:10:24,946 | Receive Global MLModel message time spent: 0.0126 seconds
+2022-08-03 14:10:24,947 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:25,304 | Modelo gerado evaluate(): [array([[-0.5957034 , -0.53903085],
+       [ 0.04978554,  0.067816  ]], dtype=float32), array([ 0.03657755, -0.03657755], dtype=float32)]
+2022-08-03 14:10:25,311 | Receive Global MLModel message time spent: 0.0119 seconds
+2022-08-03 14:10:25,311 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:25,331 | iteration: 24
+2022-08-03 14:10:25,335 | x_train: [[ 39.5   96.25]
+ [125.03 240.88]
+ [ 69.    98.75]
+ ...
+ [ 36.52  79.68]
+ [ 60.63 271.49]
+ [ 27.37  78.12]]
+2022-08-03 14:10:25,336 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:25,337 | len(x_train): 1153
+2022-08-03 14:10:25,337 | len(y_train): 1153
+2022-08-03 14:10:26,148 | LogReg Training time spent: 0.8206 seconds
+2022-08-03 14:10:26,153 | Receive Global MLModel message time spent: 0.0114 seconds
+2022-08-03 14:10:26,154 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:26,508 | Modelo gerado evaluate(): [array([[-0.5936603 , -0.5403177 ],
+       [ 0.04971872,  0.06780444]], dtype=float32), array([ 0.03758681, -0.03758682], dtype=float32)]
+2022-08-03 14:10:26,515 | Receive Global MLModel message time spent: 0.0108 seconds
+2022-08-03 14:10:26,515 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:26,534 | iteration: 25
+2022-08-03 14:10:26,538 | x_train: [[ 76.75 132.  ]
+ [ 47.92  74.65]
+ [ 65.62 232.62]
+ ...
+ [ 25.08  55.95]
+ [ 43.75  89.75]
+ [ 32.49  72.99]]
+2022-08-03 14:10:26,539 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:26,540 | len(x_train): 1153
+2022-08-03 14:10:26,540 | len(y_train): 1153
+2022-08-03 14:10:27,345 | LogReg Training time spent: 0.8146 seconds
+2022-08-03 14:10:27,351 | Receive Global MLModel message time spent: 0.0095 seconds
+2022-08-03 14:10:27,351 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:27,698 | Modelo gerado evaluate(): [array([[-0.5929849 , -0.5402374 ],
+       [ 0.04932173,  0.06812309]], dtype=float32), array([ 0.03864615, -0.03864617], dtype=float32)]
+2022-08-03 14:10:27,704 | Receive Global MLModel message time spent: 0.0077 seconds
+2022-08-03 14:10:27,705 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:27,732 | iteration: 26
+2022-08-03 14:10:27,736 | x_train: [[120.07 282.29]
+ [ 93.25 131.  ]
+ [ 28.07  70.69]
+ ...
+ [ 20.45  59.18]
+ [155.9  312.88]
+ [ 14.36  42.86]]
+2022-08-03 14:10:27,737 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:27,737 | len(x_train): 1153
+2022-08-03 14:10:27,738 | len(y_train): 1153
+2022-08-03 14:10:28,576 | LogReg Training time spent: 0.8473 seconds
+2022-08-03 14:10:28,581 | Receive Global MLModel message time spent: 0.0178 seconds
+2022-08-03 14:10:28,582 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:28,936 | Modelo gerado evaluate(): [array([[-0.59147793, -0.5409891 ],
+       [ 0.05056299,  0.06680357]], dtype=float32), array([ 0.03969752, -0.03969754], dtype=float32)]
+2022-08-03 14:10:28,943 | Receive Global MLModel message time spent: 0.0080 seconds
+2022-08-03 14:10:28,944 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:28,961 | iteration: 27
+2022-08-03 14:10:28,965 | x_train: [[ 74.38  94.  ]
+ [ 42.89  73.13]
+ [ 44.75  58.75]
+ ...
+ [ 56.95 115.19]
+ [ 55.91 135.55]
+ [ 45.89  51.06]]
+2022-08-03 14:10:28,966 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:28,967 | len(x_train): 1153
+2022-08-03 14:10:28,967 | len(y_train): 1153
+2022-08-03 14:10:29,776 | LogReg Training time spent: 0.8180 seconds
+2022-08-03 14:10:29,781 | Receive Global MLModel message time spent: 0.0084 seconds
+2022-08-03 14:10:29,782 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:30,216 | Modelo gerado evaluate(): [array([[-0.59130794, -0.5404043 ],
+       [ 0.05066374,  0.0666246 ]], dtype=float32), array([ 0.04072621, -0.04072623], dtype=float32)]
+2022-08-03 14:10:30,223 | Receive Global MLModel message time spent: 0.0631 seconds
+2022-08-03 14:10:30,224 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:30,259 | iteration: 28
+2022-08-03 14:10:30,263 | x_train: [[ 52.7  118.49]
+ [ 35.58  88.95]
+ [ 41.25  68.75]
+ ...
+ [ 14.75  71.5 ]
+ [ 49.85 139.46]
+ [ 46.3  125.19]]
+2022-08-03 14:10:30,264 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:30,265 | len(x_train): 1153
+2022-08-03 14:10:30,265 | len(y_train): 1153
+2022-08-03 14:10:31,065 | LogReg Training time spent: 0.8091 seconds
+2022-08-03 14:10:31,070 | Receive Global MLModel message time spent: 0.0271 seconds
+2022-08-03 14:10:31,070 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:31,427 | Modelo gerado evaluate(): [array([[-0.58966166, -0.5412965 ],
+       [ 0.05099608,  0.0662141 ]], dtype=float32), array([ 0.04181571, -0.04181574], dtype=float32)]
+2022-08-03 14:10:31,433 | Receive Global MLModel message time spent: 0.0184 seconds
+2022-08-03 14:10:31,434 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:31,452 | iteration: 29
+2022-08-03 14:10:31,457 | x_train: [[ 25.17  76.85]
+ [109.18 205.79]
+ [ 32.23  67.89]
+ ...
+ [112.75 169.  ]
+ [ 22.75  42.81]
+ [ 13.09  61.7 ]]
+2022-08-03 14:10:31,458 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:31,459 | len(x_train): 1153
+2022-08-03 14:10:31,459 | len(y_train): 1153
+2022-08-03 14:10:32,323 | LogReg Training time spent: 0.8738 seconds
+2022-08-03 14:10:32,329 | Receive Global MLModel message time spent: 0.0106 seconds
+2022-08-03 14:10:32,329 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:32,683 | Modelo gerado evaluate(): [array([[-0.59103334, -0.5391712 ],
+       [ 0.05044356,  0.06668852]], dtype=float32), array([ 0.04274782, -0.04274784], dtype=float32)]
+2022-08-03 14:10:32,690 | Receive Global MLModel message time spent: 0.0077 seconds
+2022-08-03 14:10:32,691 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:32,712 | iteration: 30
+2022-08-03 14:10:32,716 | x_train: [[ 13.24  92.87]
+ [ 23.    33.  ]
+ [ 13.37  50.96]
+ ...
+ [ 27.25  62.  ]
+ [ 35.85 105.44]
+ [ 41.5   65.  ]]
+2022-08-03 14:10:32,718 | y_train: [1 0 1 ... 1 1 1]
+2022-08-03 14:10:32,719 | len(x_train): 1153
+2022-08-03 14:10:32,719 | len(y_train): 1153
+2022-08-03 14:10:33,559 | LogReg Training time spent: 0.8507 seconds
+2022-08-03 14:10:33,564 | Receive Global MLModel message time spent: 0.0111 seconds
+2022-08-03 14:10:33,565 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:33,924 | Modelo gerado evaluate(): [array([[-0.58937734, -0.54007405],
+       [ 0.0514595 ,  0.06559452]], dtype=float32), array([ 0.04393181, -0.04393183], dtype=float32)]
+2022-08-03 14:10:33,930 | Receive Global MLModel message time spent: 0.0153 seconds
+2022-08-03 14:10:33,932 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:33,952 | iteration: 31
+2022-08-03 14:10:33,956 | x_train: [[  9.    15.75]
+ [ 40.12  84.75]
+ [201.2  303.62]
+ ...
+ [ 32.78  60.32]
+ [ 78.52 154.22]
+ [ 21.75  72.88]]
+2022-08-03 14:10:33,958 | y_train: [0 1 1 ... 1 1 1]
+2022-08-03 14:10:33,958 | len(x_train): 1153
+2022-08-03 14:10:33,959 | len(y_train): 1153
+2022-08-03 14:10:34,865 | LogReg Training time spent: 0.9167 seconds
+2022-08-03 14:10:34,869 | Receive Global MLModel message time spent: 0.0108 seconds
+2022-08-03 14:10:34,870 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:35,226 | Modelo gerado evaluate(): [array([[-0.58788204, -0.5408168 ],
+       [ 0.0512477 ,  0.06572831]], dtype=float32), array([ 0.04502087, -0.0450209 ], dtype=float32)]
+2022-08-03 14:10:35,234 | Receive Global MLModel message time spent: 0.0157 seconds
+2022-08-03 14:10:35,235 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:35,257 | iteration: 32
+2022-08-03 14:10:35,263 | x_train: [[ 34.    66.  ]
+ [ 69.52 438.01]
+ [  7.6   12.78]
+ ...
+ [ 25.42  48.68]
+ [ 89.   116.  ]
+ [ 68.5  111.  ]]
+2022-08-03 14:10:35,265 | y_train: [1 1 0 ... 0 1 1]
+2022-08-03 14:10:35,266 | len(x_train): 1153
+2022-08-03 14:10:35,266 | len(y_train): 1153
+2022-08-03 14:10:36,160 | LogReg Training time spent: 0.9071 seconds
+2022-08-03 14:10:36,166 | Receive Global MLModel message time spent: 0.0107 seconds
+2022-08-03 14:10:36,167 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:36,527 | Modelo gerado evaluate(): [array([[-0.58738077, -0.540566  ],
+       [ 0.05014621,  0.06675184]], dtype=float32), array([ 0.04609872, -0.04609875], dtype=float32)]
+2022-08-03 14:10:36,533 | Receive Global MLModel message time spent: 0.0145 seconds
+2022-08-03 14:10:36,535 | Send Local MLModel message time spent: 0.0004 seconds
+2022-08-03 14:10:36,555 | iteration: 33
+2022-08-03 14:10:36,559 | x_train: [[ 10.84  43.84]
+ [ 27.25  53.5 ]
+ [  8.16  24.54]
+ ...
+ [ 37.9   82.15]
+ [ 43.83  92.76]
+ [ 68.25 100.5 ]]
+2022-08-03 14:10:36,561 | y_train: [0 1 0 ... 1 1 1]
+2022-08-03 14:10:36,561 | len(x_train): 1153
+2022-08-03 14:10:36,561 | len(y_train): 1153
+2022-08-03 14:10:37,372 | LogReg Training time spent: 0.8195 seconds
+2022-08-03 14:10:37,377 | Receive Global MLModel message time spent: 0.0119 seconds
+2022-08-03 14:10:37,378 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:37,737 | Modelo gerado evaluate(): [array([[-0.5874015 , -0.5397936 ],
+       [ 0.04919418,  0.06762598]], dtype=float32), array([ 0.04706442, -0.04706445], dtype=float32)]
+2022-08-03 14:10:37,743 | Receive Global MLModel message time spent: 0.0180 seconds
+2022-08-03 14:10:37,744 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:37,762 | iteration: 34
+2022-08-03 14:10:37,766 | x_train: [[ 27.75  43.08]
+ [  6.5   24.93]
+ [ 25.54  72.77]
+ ...
+ [ 36.45  62.25]
+ [ 45.45 125.81]
+ [ 40.38 101.16]]
+2022-08-03 14:10:37,767 | y_train: [1 0 1 ... 1 1 1]
+2022-08-03 14:10:37,768 | len(x_train): 1153
+2022-08-03 14:10:37,768 | len(y_train): 1153
+2022-08-03 14:10:38,574 | LogReg Training time spent: 0.8147 seconds
+2022-08-03 14:10:38,579 | Receive Global MLModel message time spent: 0.0091 seconds
+2022-08-03 14:10:38,580 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:38,939 | Modelo gerado evaluate(): [array([[-0.5866874 , -0.5397564 ],
+       [ 0.04866744,  0.06807486]], dtype=float32), array([ 0.04803676, -0.04803679], dtype=float32)]
+2022-08-03 14:10:38,946 | Receive Global MLModel message time spent: 0.0172 seconds
+2022-08-03 14:10:38,948 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:38,968 | iteration: 35
+2022-08-03 14:10:38,972 | x_train: [[ 76.   127.25]
+ [ 17.    44.08]
+ [ 24.46  74.  ]
+ ...
+ [142.27 250.84]
+ [127.14 211.45]
+ [109.7  287.39]]
+2022-08-03 14:10:38,973 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:38,974 | len(x_train): 1153
+2022-08-03 14:10:38,974 | len(y_train): 1153
+2022-08-03 14:10:39,815 | LogReg Training time spent: 0.8503 seconds
+2022-08-03 14:10:39,820 | Receive Global MLModel message time spent: 0.0115 seconds
+2022-08-03 14:10:39,822 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:40,178 | Modelo gerado evaluate(): [array([[-0.58497673, -0.54071647],
+       [ 0.05089555,  0.06576894]], dtype=float32), array([ 0.04903353, -0.04903356], dtype=float32)]
+2022-08-03 14:10:40,186 | Receive Global MLModel message time spent: 0.0083 seconds
+2022-08-03 14:10:40,187 | Send Local MLModel message time spent: 0.0004 seconds
+2022-08-03 14:10:40,203 | iteration: 36
+2022-08-03 14:10:40,207 | x_train: [[ 33.62 107.55]
+ [117.38  91.79]
+ [ 30.14  77.32]
+ ...
+ [ 44.25 118.  ]
+ [ 25.5   97.5 ]
+ [ 72.47 112.28]]
+2022-08-03 14:10:40,208 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:40,209 | len(x_train): 1153
+2022-08-03 14:10:40,209 | len(y_train): 1153
+2022-08-03 14:10:41,045 | LogReg Training time spent: 0.8448 seconds
+2022-08-03 14:10:41,050 | Receive Global MLModel message time spent: 0.0077 seconds
+2022-08-03 14:10:41,051 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:41,417 | Modelo gerado evaluate(): [array([[-0.5848342 , -0.54010874],
+       [ 0.05104487,  0.06554187]], dtype=float32), array([ 0.05009173, -0.05009175], dtype=float32)]
+2022-08-03 14:10:41,425 | Receive Global MLModel message time spent: 0.0114 seconds
+2022-08-03 14:10:41,426 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:41,447 | iteration: 37
+2022-08-03 14:10:41,451 | x_train: [[ 61.39 123.24]
+ [ 56.    94.  ]
+ [ 68.95 124.4 ]
+ ...
+ [103.54 249.8 ]
+ [ 77.   172.  ]
+ [ 48.38 114.75]]
+2022-08-03 14:10:41,453 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:41,453 | len(x_train): 1153
+2022-08-03 14:10:41,453 | len(y_train): 1153
+2022-08-03 14:10:42,278 | LogReg Training time spent: 0.8341 seconds
+2022-08-03 14:10:42,283 | Receive Global MLModel message time spent: 0.0118 seconds
+2022-08-03 14:10:42,284 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:42,637 | Modelo gerado evaluate(): [array([[-0.58514786, -0.53904533],
+       [ 0.04858992,  0.06791913]], dtype=float32), array([ 0.05108525, -0.05108527], dtype=float32)]
+2022-08-03 14:10:42,645 | Receive Global MLModel message time spent: 0.0148 seconds
+2022-08-03 14:10:42,646 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:42,663 | iteration: 38
+2022-08-03 14:10:42,667 | x_train: [[  8.87  19.17]
+ [ 33.    83.  ]
+ [ 20.21  49.9 ]
+ ...
+ [129.6  254.17]
+ [ 63.75 130.  ]
+ [ 24.38  56.09]]
+2022-08-03 14:10:42,669 | y_train: [0 1 1 ... 1 1 1]
+2022-08-03 14:10:42,669 | len(x_train): 1153
+2022-08-03 14:10:42,670 | len(y_train): 1153
+2022-08-03 14:10:43,512 | LogReg Training time spent: 0.8515 seconds
+2022-08-03 14:10:43,517 | Receive Global MLModel message time spent: 0.0086 seconds
+2022-08-03 14:10:43,519 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:43,880 | Modelo gerado evaluate(): [array([[-0.58489263, -0.5385514 ],
+       [ 0.04854482,  0.06788658]], dtype=float32), array([ 0.052143  , -0.05214302], dtype=float32)]
+2022-08-03 14:10:43,886 | Receive Global MLModel message time spent: 0.0141 seconds
+2022-08-03 14:10:43,887 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:43,914 | iteration: 39
+2022-08-03 14:10:43,919 | x_train: [[ 56.    94.  ]
+ [196.6  302.99]
+ [ 98.3  176.87]
+ ...
+ [ 66.64 126.78]
+ [122.77 153.88]
+ [ 73.41 124.69]]
+2022-08-03 14:10:43,920 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:43,920 | len(x_train): 1153
+2022-08-03 14:10:43,921 | len(y_train): 1153
+2022-08-03 14:10:44,830 | LogReg Training time spent: 0.9186 seconds
+2022-08-03 14:10:44,835 | Receive Global MLModel message time spent: 0.0196 seconds
+2022-08-03 14:10:44,836 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:45,194 | Modelo gerado evaluate(): [array([[-0.5834015 , -0.5392939 ],
+       [ 0.0483553 ,  0.06799851]], dtype=float32), array([ 0.05309459, -0.05309461], dtype=float32)]
+2022-08-03 14:10:45,201 | Receive Global MLModel message time spent: 0.0144 seconds
+2022-08-03 14:10:45,201 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:45,224 | iteration: 40
+2022-08-03 14:10:45,228 | x_train: [[ 50.17  90.88]
+ [ 78.75 148.5 ]
+ [  7.81  18.64]
+ ...
+ [ 27.52  81.05]
+ [ 80.6  140.22]
+ [ 66.5  140.5 ]]
+2022-08-03 14:10:45,230 | y_train: [1 1 0 ... 1 1 1]
+2022-08-03 14:10:45,231 | len(x_train): 1153
+2022-08-03 14:10:45,231 | len(y_train): 1153
+2022-08-03 14:10:46,158 | LogReg Training time spent: 0.9381 seconds
+2022-08-03 14:10:46,164 | Receive Global MLModel message time spent: 0.0132 seconds
+2022-08-03 14:10:46,164 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:46,517 | Modelo gerado evaluate(): [array([[-0.58229476, -0.5396524 ],
+       [ 0.04893734,  0.06733894]], dtype=float32), array([ 0.05421542, -0.05421544], dtype=float32)]
+2022-08-03 14:10:46,523 | Receive Global MLModel message time spent: 0.0124 seconds
+2022-08-03 14:10:46,524 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:46,542 | iteration: 41
+2022-08-03 14:10:46,546 | x_train: [[ 96.88 145.25]
+ [ 83.11 208.14]
+ [103.46 200.68]
+ ...
+ [ 30.21  75.2 ]
+ [ 41.03  79.69]
+ [ 79.88 168.38]]
+2022-08-03 14:10:46,547 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:46,548 | len(x_train): 1153
+2022-08-03 14:10:46,548 | len(y_train): 1153
+2022-08-03 14:10:47,392 | LogReg Training time spent: 0.8528 seconds
+2022-08-03 14:10:47,397 | Receive Global MLModel message time spent: 0.0092 seconds
+2022-08-03 14:10:47,398 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:47,806 | Modelo gerado evaluate(): [array([[-0.58270943, -0.53849006],
+       [ 0.0477628 ,  0.06843599]], dtype=float32), array([ 0.05521594, -0.05521595], dtype=float32)]
+2022-08-03 14:10:47,813 | Receive Global MLModel message time spent: 0.0636 seconds
+2022-08-03 14:10:47,814 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:47,834 | iteration: 42
+2022-08-03 14:10:47,838 | x_train: [[ 33.94  75.04]
+ [ 39.88  87.9 ]
+ [ 24.5   78.75]
+ ...
+ [ 59.25 130.  ]
+ [ 19.67  63.14]
+ [ 42.55 102.62]]
+2022-08-03 14:10:47,840 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:47,840 | len(x_train): 1153
+2022-08-03 14:10:47,840 | len(y_train): 1153
+2022-08-03 14:10:48,751 | LogReg Training time spent: 0.9197 seconds
+2022-08-03 14:10:48,756 | Receive Global MLModel message time spent: 0.0108 seconds
+2022-08-03 14:10:48,757 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:49,119 | Modelo gerado evaluate(): [array([[-0.5815678 , -0.5388845 ],
+       [ 0.04888787,  0.06723348]], dtype=float32), array([ 0.05627025, -0.05627027], dtype=float32)]
+2022-08-03 14:10:49,125 | Receive Global MLModel message time spent: 0.0154 seconds
+2022-08-03 14:10:49,126 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:49,141 | iteration: 43
+2022-08-03 14:10:49,145 | x_train: [[ 31.88 105.  ]
+ [ 42.42  86.19]
+ [ 15.84  38.33]
+ ...
+ [ 16.5   32.5 ]
+ [ 18.5   48.5 ]
+ [ 47.77 119.35]]
+2022-08-03 14:10:49,147 | y_train: [1 1 1 ... 0 0 1]
+2022-08-03 14:10:49,147 | len(x_train): 1153
+2022-08-03 14:10:49,148 | len(y_train): 1153
+2022-08-03 14:10:49,958 | LogReg Training time spent: 0.8196 seconds
+2022-08-03 14:10:49,963 | Receive Global MLModel message time spent: 0.0073 seconds
+2022-08-03 14:10:49,964 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:50,312 | Modelo gerado evaluate(): [array([[-0.58174115, -0.5379644 ],
+       [ 0.047335  ,  0.06870896]], dtype=float32), array([ 0.05723968, -0.05723969], dtype=float32)]
+2022-08-03 14:10:50,319 | Receive Global MLModel message time spent: 0.0097 seconds
+2022-08-03 14:10:50,319 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:50,335 | iteration: 44
+2022-08-03 14:10:50,339 | x_train: [[ 35.29 187.14]
+ [ 61.25 104.75]
+ [ 64.08 150.7 ]
+ ...
+ [ 14.62  33.98]
+ [ 75.33 173.35]
+ [ 24.92  44.2 ]]
+2022-08-03 14:10:50,341 | y_train: [1 1 1 ... 0 1 1]
+2022-08-03 14:10:50,341 | len(x_train): 1153
+2022-08-03 14:10:50,341 | len(y_train): 1153
+2022-08-03 14:10:51,214 | LogReg Training time spent: 0.8824 seconds
+2022-08-03 14:10:51,220 | Receive Global MLModel message time spent: 0.0073 seconds
+2022-08-03 14:10:51,221 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:52,374 | Modelo gerado evaluate(): [array([[-0.5817439 , -0.5372155 ],
+       [ 0.04821106,  0.06775557]], dtype=float32), array([ 0.05826007, -0.05826008], dtype=float32)]
+2022-08-03 14:10:52,380 | Receive Global MLModel message time spent: 0.0094 seconds
+2022-08-03 14:10:52,381 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:52,396 | iteration: 45
+2022-08-03 14:10:52,400 | x_train: [[ 95.38 207.88]
+ [ 69.8  227.24]
+ [ 27.   128.  ]
+ ...
+ [ 76.25  94.  ]
+ [126.5  207.5 ]
+ [ 17.46  57.15]]
+2022-08-03 14:10:52,402 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:52,402 | len(x_train): 1153
+2022-08-03 14:10:52,402 | len(y_train): 1153
+2022-08-03 14:10:53,216 | LogReg Training time spent: 0.8228 seconds
+2022-08-03 14:10:53,221 | Receive Global MLModel message time spent: 0.0073 seconds
+2022-08-03 14:10:53,222 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:53,601 | Modelo gerado evaluate(): [array([[-0.580491  , -0.53772265],
+       [ 0.04788693,  0.06800241]], dtype=float32), array([ 0.05926226, -0.05926227], dtype=float32)]
+2022-08-03 14:10:53,609 | Receive Global MLModel message time spent: 0.0350 seconds
+2022-08-03 14:10:53,610 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:53,625 | iteration: 46
+2022-08-03 14:10:53,629 | x_train: [[ 32.12  61.31]
+ [  8.5   30.  ]
+ [ 15.25  82.5 ]
+ ...
+ [ 31.5   63.75]
+ [125.3  299.41]
+ [ 30.62  55.11]]
+2022-08-03 14:10:53,631 | y_train: [1 0 1 ... 1 1 1]
+2022-08-03 14:10:53,631 | len(x_train): 1153
+2022-08-03 14:10:53,632 | len(y_train): 1153
+2022-08-03 14:10:54,434 | LogReg Training time spent: 0.8119 seconds
+2022-08-03 14:10:54,439 | Receive Global MLModel message time spent: 0.0065 seconds
+2022-08-03 14:10:54,440 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:54,798 | Modelo gerado evaluate(): [array([[-0.5804872 , -0.53698134],
+       [ 0.04836977,  0.06744233]], dtype=float32), array([ 0.06020135, -0.06020137], dtype=float32)]
+2022-08-03 14:10:54,805 | Receive Global MLModel message time spent: 0.0155 seconds
+2022-08-03 14:10:54,806 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:54,826 | iteration: 47
+2022-08-03 14:10:54,830 | x_train: [[ 32.45  67.6 ]
+ [ 53.8  153.35]
+ [ 56.45 173.52]
+ ...
+ [ 32.5   75.5 ]
+ [ 19.75  33.5 ]
+ [ 59.79 156.25]]
+2022-08-03 14:10:54,832 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:54,832 | len(x_train): 1153
+2022-08-03 14:10:54,833 | len(y_train): 1153
+2022-08-03 14:10:55,704 | LogReg Training time spent: 0.8810 seconds
+2022-08-03 14:10:55,709 | Receive Global MLModel message time spent: 0.0113 seconds
+2022-08-03 14:10:55,710 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:56,072 | Modelo gerado evaluate(): [array([[-0.5816607 , -0.53506315],
+       [ 0.04761782,  0.0681171 ]], dtype=float32), array([ 0.06122147, -0.06122149], dtype=float32)]
+2022-08-03 14:10:56,079 | Receive Global MLModel message time spent: 0.0135 seconds
+2022-08-03 14:10:56,079 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:56,097 | iteration: 48
+2022-08-03 14:10:56,101 | x_train: [[ 22.33  38.92]
+ [ 96.5  135.75]
+ [ 21.83  35.36]
+ ...
+ [ 19.75  57.  ]
+ [ 92.75 150.  ]
+ [ 41.56  56.49]]
+2022-08-03 14:10:56,102 | y_train: [0 1 1 ... 1 1 1]
+2022-08-03 14:10:56,102 | len(x_train): 1153
+2022-08-03 14:10:56,103 | len(y_train): 1153
+2022-08-03 14:10:56,945 | LogReg Training time spent: 0.8518 seconds
+2022-08-03 14:10:56,951 | Receive Global MLModel message time spent: 0.0086 seconds
+2022-08-03 14:10:56,952 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:57,306 | Modelo gerado evaluate(): [array([[-0.5802483 , -0.5357314 ],
+       [ 0.04897315,  0.06668463]], dtype=float32), array([ 0.0622472 , -0.06224722], dtype=float32)]
+2022-08-03 14:10:57,313 | Receive Global MLModel message time spent: 0.0098 seconds
+2022-08-03 14:10:57,314 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:57,332 | iteration: 49
+2022-08-03 14:10:57,336 | x_train: [[ 23.31  57.77]
+ [ 52.25  87.5 ]
+ [ 24.5   83.  ]
+ ...
+ [ 72.42 139.75]
+ [ 47.08 109.14]
+ [ 44.21 113.26]]
+2022-08-03 14:10:57,337 | y_train: [1 1 1 ... 1 1 1]
+2022-08-03 14:10:57,338 | len(x_train): 1153
+2022-08-03 14:10:57,338 | len(y_train): 1153
+2022-08-03 14:10:58,143 | LogReg Training time spent: 0.8144 seconds
+2022-08-03 14:10:58,148 | Receive Global MLModel message time spent: 0.0093 seconds
+2022-08-03 14:10:58,149 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:58,503 | Modelo gerado evaluate(): [array([[-0.58001477, -0.5352211 ],
+       [ 0.04724354,  0.06833717]], dtype=float32), array([ 0.06329211, -0.06329212], dtype=float32)]
+2022-08-03 14:10:58,509 | Receive Global MLModel message time spent: 0.0127 seconds
+2022-08-03 14:10:58,510 | Send Local MLModel message time spent: 0.0002 seconds
+2022-08-03 14:10:58,522 | Receive Global MLModel message time spent: 0.0104 seconds
+2022-08-03 14:10:58,523 | Send Local MLModel message time spent: 0.0001 seconds
+2022-08-03 14:10:58,533 | Insecure gRPC channel closed
+2022-08-03 14:10:58,534 | Disconnect and shut down
+2022-08-03 14:10:58,535 | Train history: [0.9248554706573486, 0.9267822504043579, 0.9122468829154968, 0.9064609408378601, 0.9064609408378601, 0.9016393423080444, 0.9054965972900391, 0.9112825393676758, 0.9151398539543152, 0.8871745467185974, 0.9064609408378601, 0.9180327653884888, 0.9016393423080444, 0.9151398539543152, 0.9122468829154968, 0.9257473349571228, 0.9016393423080444, 0.9161041378974915, 0.9074252843856812, 0.9276759624481201, 0.9035679697990417, 0.9074252843856812, 0.9276759624481201, 0.9141755104064941, 0.9199614524841309, 0.9103182554244995, 0.9074252843856812, 0.9276759624481201, 0.9209257364273071, 0.9141755104064941, 0.8929604887962341, 0.9026036858558655, 0.9112825393676758, 0.9006749987602234, 0.9083895683288574, 0.9161041378974915, 0.9189971089363098, 0.9083895683288574, 0.9093539118766785, 0.9189971089363098, 0.9006749987602234, 0.9035679697990417, 0.9122468829154968, 0.9006749987602234, 0.9112825393676758, 0.9122468829154968, 0.9209257364273071, 0.9141755104064941, 0.9267116785049438, 0.9112825393676758]
+
+2022-08-03 14:10:58,536 | Test history: [0.931034505367279, 0.9051724076271057, 0.9051724076271057, 0.8793103694915771, 0.8879310488700867, 0.9224137663841248, 0.8879310488700867, 0.8275862336158752, 0.8879310488700867, 0.9568965435028076, 0.9224137663841248, 0.931034505367279, 0.9051724076271057, 0.9224137663841248, 0.9051724076271057, 0.9051724076271057, 0.9568965435028076, 0.9224137663841248, 0.9137930870056152, 0.931034505367279, 0.8879310488700867, 0.9396551847457886, 0.9051724076271057, 0.8965517282485962, 0.9137930870056152, 0.9137930870056152, 0.8706896305084229, 0.9568965435028076, 0.9051724076271057, 0.931034505367279, 0.931034505367279, 0.8793103694915771, 0.9137930870056152, 0.9051724076271057, 0.9482758641242981, 0.931034505367279, 0.9482758641242981, 0.8706896305084229, 0.9051724076271057, 0.9568965435028076, 0.9396551847457886, 0.931034505367279, 0.9137930870056152, 0.9051724076271057, 0.9137930870056152, 0.9396551847457886, 0.8620689511299133, 0.9568965435028076, 0.9051724076271057, 0.8965517282485962]
+
+2022-08-03 14:11:19,789 | Regressão Logística multiclasse
+2022-08-03 14:11:22,749 | LogReg MLModel message to device time spent: 0.3966 seconds

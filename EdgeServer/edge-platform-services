@@ -1,0 +1,122 @@
+#!/bin/bash
+#
+#  Command Line Interface to start all services associated with the Getting-Started Tutorial
+#
+#  For this tutorial the commands are merely a convenience script to run docker-compose
+#
+
+set -e
+
+if (( $# != 1 )); then
+    echo "Illegal number of parameters"
+    echo "usage: edge-platform-services [create|start|stop]"
+    exit 1
+fi
+
+loadData () {
+	docker run --rm -v $(pwd)/import-data:/import-data \
+		--network fiware_default \
+		--entrypoint /bin/ash curlimages/curl import-data
+	waitForIoTAgent
+	echo ""
+}
+
+stoppingContainers () {
+	echo -e "Force removal of \033[1mmqtt-subscriber\033[0m"
+  #sudo service mosquitto stop
+	(docker stop mqtt-subscriber &>/dev/null) || (echo -e "\033[1mmqtt-subscriber\033[0m not running")
+	echo "Stopping containers"
+	docker-compose --log-level ERROR -p fiware down -v --remove-orphans
+}
+
+displayServices () {
+	echo ""
+	docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}" --filter name="(fiware-*|mosquitto)"
+	echo ""
+}
+
+addDatabaseIndex () {
+	printf "Adding appropriate \033[1mMongoDB\033[0m indexes for \033[1;34mOrion\033[0m  ..."
+	docker exec  db-mongo mongo --eval '
+	conn = new Mongo();db.createCollection("orion");
+	db = conn.getDB("orion");
+	db.createCollection("entities");
+	db.entities.createIndex({"_id.servicePath": 1, "_id.id": 1, "_id.type": 1}, {unique: true});
+	db.entities.createIndex({"_id.type": 1});
+	db.entities.createIndex({"_id.id": 1});' > /dev/null
+
+	docker exec  db-mongo mongo --eval '
+	conn = new Mongo();db.createCollection("orion-openiot");
+	db = conn.getDB("orion-openiot");
+	db.createCollection("entities");
+	db.entities.createIndex({"_id.servicePath": 1, "_id.id": 1, "_id.type": 1}, {unique: true});
+	db.entities.createIndex({"_id.type": 1});
+	db.entities.createIndex({"_id.id": 1});' > /dev/null
+	echo -e " \033[1;32mdone\033[0m"
+
+	printf "Adding appropriate \033[1mMongoDB\033[0m indexes for \033[1;36mIoT-Agent\033[0m  ..."
+	docker exec  db-mongo mongo --eval '
+	conn = new Mongo();
+	db = conn.getDB("iotagentul");
+	db.createCollection("devices");
+	db.devices.createIndex({"_id.service": 1, "_id.id": 1, "_id.type": 1});
+	db.devices.createIndex({"_id.type": 1});
+	db.devices.createIndex({"_id.id": 1});
+	db.createCollection("groups");
+	db.groups.createIndex({"_id.resource": 1, "_id.apikey": 1, "_id.service": 1});
+	db.groups.createIndex({"_id.type": 1});' > /dev/null
+	echo -e " \033[1;32mdone\033[0m"
+}
+
+waitForOrion () {
+	echo -e "\n⏳ Waiting for \033[1;34mOrion\033[0m to be available\n"
+	while [ `docker run --network fiware_default --rm curlimages/curl -s -o /dev/null -w %{http_code} 'http://orion:1026/version'` -eq 000 ]
+	do
+	  echo -e "Context Broker HTTP state: " `curl -s -o /dev/null -w %{http_code} 'http://localhost:1026/version'` " (waiting for 200)"
+	  sleep 1
+	done
+}
+
+
+waitForIoTAgent () {
+	echo -e "\n⏳ Waiting for \033[1;36mIoT-Agent\033[0m to be available\n"
+	while [ `docker run --network fiware_default --rm curlimages/curl -s -o /dev/null -w %{http_code} 'http://iot-agent:4041/version'` -eq 000 ]
+	do
+	  echo -e "IoT Agent HTTP state: " `curl -s -o /dev/null -w %{http_code} 'http://localhost:4041/version'` " (waiting for 200)"
+	  sleep 1
+	done
+}
+
+command="$1"
+case "${command}" in
+	"help")
+        echo "usage: edge-platform-services [create|start|stop]"
+        ;;
+    "start")
+		stoppingContainers
+		echo -e "Starting five containers \033[1;34mOrion\033[0m, \033[1;36mLWPubSub IoT-Agent\033[0m, \033[1mMosquitto\033[0m MQTT broker and a \033[1mMongoDB\033[0m database."
+		echo -e "- \033[1;34mOrion\033[0m is the FIWARE Context Broker"
+		echo -e "- \033[1;36mLWPubSub IoT-Agent\033[0m provides LWPubSub Messages for FedSensor framework (lightweight and e2e secure MQTT data)"
+		echo -e "- \033[1mMosquitto\033[0m is the MQTT Broker"
+		echo ""
+		docker-compose --log-level ERROR -p fiware up -d --remove-orphans
+    echo -e "Post start configurations..."
+    sleep 5
+		addDatabaseIndex
+		waitForOrion
+		loadData
+		displayServices
+		;;
+	"stop")
+		stoppingContainers
+		;;
+	"create")
+		echo "Pulling Docker images"
+		docker-compose --log-level ERROR -p fiware pull
+		;;
+	*)
+		echo "Command not Found."
+		echo "usage: edge-platform-services [create|start|stop]"
+		exit 127;
+		;;
+esac

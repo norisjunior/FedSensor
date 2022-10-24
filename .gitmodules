@@ -1,0 +1,3 @@
+[submodule "contiki-ng-4.7"]
+  path = contiki-ng-4.7
+  url = https://github.com/norisjunior/contiki-ng.git
