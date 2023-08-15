@@ -34,8 +34,8 @@ pycryptodome              3.15.0\
 pyod                      1.0.0\
 scikit-learn              1.0.2\
 scipy                     1.7.3\
-tensorflow                2.4.1\
-tensorflow-base           2.4.1\
+tensorflow                2.6.3\
+tensorflow-base           2.6.3\
 tensorflow-cpu            2.6.3
 
 ###### Requisitos (Contiki-NG):
